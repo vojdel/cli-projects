@@ -1,0 +1,30 @@
+{
+  "name": "cprojects",
+  "version": "1.0.0",
+  "description": "cli projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Jose Daniel V.",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.2.1",
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "eslint": "^7.17.0",
+    "husky": "^4.3.6",
+    "prettier": "2.2.1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}

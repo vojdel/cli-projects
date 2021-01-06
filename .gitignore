@@ -1,0 +1,16 @@
+### Batch ###
+
+# BatchFiles
+*.bat
+*.cmd
+*.btm
+
+### Node ###
+
+# Dependency directories
+node_modules/
+
+# dotenv environment variables file
+.env
+.env.test
+.env*.local
